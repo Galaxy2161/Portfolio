@@ -1,0 +1,50 @@
+a{
+    text-decoration: none;
+    color:black;
+}
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction:column ;
+    padding-top:50px;
+}
+.about-image{
+    height: 175px;
+    width: 175px;
+
+    border-radius: 50%;
+    margin: 5px;
+    object-fit: cover;
+} 
+.para1{
+    text-align: center;
+    width:50% ;
+}
+#projects{
+    padding-top:50px;
+}
+.heading2{
+    text-align: center;
+    padding: 20px
+}
+.card{
+    margin: 0 auto;
+    min-width: 50%;
+}
+.Technology{
+    text-align: center;
+}
+
+    
+@media screen and (max-width:500px) {
+.Technology{
+    width:90% ;
+}
+
+.para1{
+    width: 90%;
+}
+
+}
+     
